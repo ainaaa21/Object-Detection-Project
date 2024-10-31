@@ -1,11 +1,22 @@
-# Object-Detection-Project
-Open file 'flask_object_detection' in Visual Studio Code
-In detection.py, use 'best_yolov8n.pt' provided in the System.zip
-To run the flask app, run command 'python app.py' on Visual Studio Code terminal
-Once the Flask app has run, copy and paste 'http://127.0.0.1:5000/' on browser 
-The main page (index.html) of the system will appear 
-To start the detection process, click on camera icon to redirect to detection page (detection.html)
-Once the camera is initialized, the user can start the detection process by placing the canned packaging in front of camera
-Make sure to follow instructions given to obtain accurate detection
-This project is limited to bare, tall, silver canned packaging, as shown in the DATASET FYP folder. Therefore, users must use the same type of canned packaging for detection; otherwise, the system may not detect the can or may misclassify the defect level.
-Once done with detection process, the user can click on 'Stop Detection' button that will redirect back to the main page
+# **Real-Time Defect Detection and Classification for Canned Food Packaging**
+
+Hi! This project is a **real-time defect detection and classification system** specifically designed for detecting defects in **canned food packaging** using **YOLOv8** (You Only Look Once, Version 8), the **Ultralytics** library, and **OpenCV**.
+
+This system leverages the **YOLOv8 model** to identify and classify defects with high accuracy and efficiency, enabling quality control processes in real-time. The combination of YOLOv8 and OpenCV ensures that **defects in canned packaging are detected swiftly and precisely**, making it ideal for **automated inspection** in manufacturing environments.
+
+## **Features**
+- **Real-Time Detection**: Identifies and classifies defects as they appear.
+- **Focused on Canned Food Packaging**: Optimized for detecting defects in specific packaging scenarios.
+- **High-Accuracy Model**: Powered by YOLOv8 from Ultralytics for reliable results.
+- **Efficient Image Processing**: Utilizes OpenCV for handling and processing image frames.
+
+## **Requirements**
+- **Python**
+- **[Ultralytics YOLOv8](https://github.com/ultralytics/ultralytics)**
+- **OpenCV**
+- **Flask**
+
+## **Getting Started**
+1. **Clone the repository**.
+2. **Install the required dependencies**.
+3. **Run the application** with `python app.py` to start real-time defect detection.
