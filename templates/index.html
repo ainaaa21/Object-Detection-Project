@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+    <style>
+        /* Import font */
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+        /* Style for body element */
+        body {
+            background-image: url("{{ url_for('static', filename='can.jpg') }}");  /* Set background image */
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            font-family: 'Poppins', sans-serif; /* Apply font to body */
+        }
+
+        /* Style for overlay */
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.4);  /* Semi-transparent overlay */
+            z-index: 0; /* Ensure overlay is behind the content */
+        }
+
+        /* Style for header */
+        .header {
+            position: absolute;
+            top: 60px; /* Adjust this value to position header closer to the top */
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 1.5vw; /* Responsive font size based on viewport width */
+            color: #ffffff;
+            margin: 0; /* Remove default margin */
+            white-space: nowrap; /* Prevent line breaks */
+            z-index: 1; /* Ensure header is above the overlay */
+            margin-top: -2.0vw;
+        }
+
+        /* Style for content container */
+        .content {
+            position: relative;
+            z-index: 1; /* Ensure content is above the overlay */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: #ffffff;
+            width: 90%; /* Responsive width */
+            max-width: 600px; /* Optional: limit max width */
+            padding: 20px; /* Add padding for spacing */
+            margin-top: 70px; /* Space to account for the fixed header */
+        }
+
+        /* Style for image inside content */
+        .content img {
+            width: 11vw; /*Responsive width based on viewport width */
+            /* max-width: 12vw; Maximum size for larger screens */
+            height: auto; /* Maintain aspect ratio */
+            margin-top: 20px; /* Space above the image */
+        }
+
+        /* Style for instruction text */
+        .content .instruction {
+            font-size: 1.9vw; /* Responsive font size based on viewport width */
+            font-weight: bold;
+            margin-top: -10px; /* Space above the text */
+            /* margin-bottom: -10px; */
+        }
+
+        /* Style for instruction span */
+        .content .instruction span {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <!-- Overlay div -->
+    <div class="overlay"></div>
+    <!-- Header -->
+    <div class="header">
+        <h1>Welcome to SmartDetection</h1>
+    </div>
+    <!-- Content container -->
+    <div class="content">
+        <!-- Link to detection page with camera=true parameter -->
+        <a href="{{ url_for('detection') }}?camera=true">
+            <!-- Camera icon -->
+            <img src="{{ url_for('static', filename='camera_icon.png') }}" alt="Camera Icon">  <!-- Camera icon -->
+        </a>
+        <!-- Instruction text -->
+        <p class="instruction">
+            <span>Click on the camera icon</span>
+            <span>to start detection</span>
+        </p>
+    </div>
+</body>
+</html>
