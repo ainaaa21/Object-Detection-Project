@@ -5,10 +5,10 @@
 This is a personal project developed to demonstrate a practical understanding of AI, deep learning, and computer vision by building a prototype for real-time defect detection in canned food packaging. Leveraging YOLOv8 by Ultralytics and OpenCV, the system simulates an automated quality control process—showcasing the potential of AI in manufacturing and inspection tasks.  
 
 ## 🔍 **Project Objectives**
-✅ **Hands-On Deep Learning** – Apply object detection techniques to a real-world use case.
-✅ **Real-Time Processing** – Demonstrate the ability to detect and classify defects instantly.
-✅ **Practical Application Focus** – Tailored for packaging defects like dents, scratches, and deformations.
-✅ **Web Deployment Simulation** – Use Flask to simulate deployment in a production-like environment.
+✅ **Hands-On Deep Learning** – Apply object detection techniques to a real-world use case. 
+✅ **Real-Time Processing** – Demonstrate the ability to detect and classify defects instantly. 
+✅ **Practical Application Focus** – Tailored for packaging defects like dents, scratches, and deformations. 
+✅ **Web Deployment Simulation** – Use Flask to simulate deployment in a production-like environment. 
 
 ---
 
