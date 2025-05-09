@@ -2,7 +2,7 @@
 
 🚀 **Exploring AI in Quality Control**
 
-This is a personal project developed to demonstrate a practical understanding of AI, deep learning, and computer vision by building a prototype for real-time defect detection in canned food packaging. Leveraging YOLOv8 by Ultralytics and OpenCV, the system simulates an automated quality control process—showcasing the potential of AI in manufacturing and inspection tasks.  
+This is a project developed to demonstrate a practical understanding of **AI, deep learning, and computer vision** by building a prototype for **real-time defect detection in canned food packaging**. Leveraging **YOLOv8 by Ultralytics and OpenCV**, the system simulates an automated quality control process—showcasing the potential of AI in manufacturing and inspection tasks.  
 
 ---
 
