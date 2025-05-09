@@ -16,7 +16,6 @@ This is a personal project developed to demonstrate a practical understanding of
 
 ## 🌟 **Key Features**
 🔹 **Real-Time Detection** – Simulates live detection using a webcam or video input.
-
 🔹 **Packaging-Specific Use Case** – Focused on identifying visual defects in canned goods.
 🔹 **YOLOv8 Accuracy** – Utilizes a state-of-the-art model for reliable object detection.
 🔹 **Streamlined Processing** – Processes frames efficiently using OpenCV.
