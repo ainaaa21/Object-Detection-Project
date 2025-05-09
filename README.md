@@ -24,7 +24,7 @@ This is a personal project developed to demonstrate a practical understanding of
 
 ---
 
-## ⚙️ **Tech Stack & Dependencies**  
+## ⚙️ Tech Stack & Dependencies
 📌 **Programming Language:** Python 🐍  
 📌 **Deep Learning Framework:** [Ultralytics YOLOv8](https://github.com/ultralytics/ultralytics) 🤖  
 📌 **Computer Vision Library:** OpenCV 👀  
@@ -51,14 +51,14 @@ python app.py
 Once started, the system will analyze incoming frames and detect packaging defects in real-time! 🏭✨  
 
 ---
-## ⚙️ **How It Works**
+## ⚙️ How It Works
 1️⃣ Captures live video input.
 2️⃣ Processes frames using OpenCV.
 3️⃣ Runs object detection using YOLOv8.
 4️⃣ Displays results via Flask web interface.
 
 ---
-## 💬 **Learning Outcomes**
+## 💬 Learning Outcomes
 🔹 Gained hands-on experience with YOLOv8 object detection.
 🔹 Applied computer vision techniques in a manufacturing context.
 🔹 Explored real-time AI deployment using Flask. 
