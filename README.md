@@ -55,14 +55,15 @@ Once started, the system will analyze incoming frames and detect packaging defec
 ---
 ## ⚙️ How It Works
 
-1️⃣ Captures live video input.
-2️⃣ Processes frames using OpenCV.
-3️⃣ Runs object detection using YOLOv8.
-4️⃣ Displays results via Flask web interface.
+1️⃣ **Captures** live video input.  
+2️⃣ **Processes** frames using OpenCV.  
+3️⃣ **Runs** object detection using YOLOv8.  
+4️⃣ **Displays** results via Flask web interface.
 
 ---
 ## 💬 Learning Outcomes
 
-🔹 Gained hands-on experience with YOLOv8 object detection.
-🔹 Applied computer vision techniques in a manufacturing context.
-🔹 Explored real-time AI deployment using Flask.
+- 🔹 Gained **hands-on experience** with YOLOv8 object detection.  
+- 🔹 Applied **computer vision techniques** in a manufacturing context.  
+- 🔹 Explored **real-time AI deployment** using Flask.
+
