@@ -6,10 +6,10 @@ This is a personal project developed to demonstrate a practical understanding of
 
 ## 🔍 Project Objectives
 
-- ✅ **Hands-On Deep Learning** – Apply object detection techniques to a real-world use case.  
-- ✅ **Real-Time Processing** – Demonstrate the ability to detect and classify defects instantly.  
-- ✅ **Practical Application Focus** – Tailored for packaging defects like dents, scratches, and deformations.  
-- ✅ **Web Deployment Simulation** – Use Flask to simulate deployment in a production-like environment.
+✅ **Hands-On Deep Learning** – Apply object detection techniques to a real-world use case.  
+✅ **Real-Time Processing** – Demonstrate the ability to detect and classify defects instantly.  
+✅ **Practical Application Focus** – Tailored for packaging defects like dents, scratches, and deformations.  
+✅ **Web Deployment Simulation** – Use Flask to simulate deployment in a production-like environment.
 
 
 ---
