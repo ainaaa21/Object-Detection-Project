@@ -1,6 +1,6 @@
-# 🛠️ Real-Time Defect Detection and Classification for Canned Food Packaging
+🛠️ Real-Time Defect Detection and Classification for Canned Food Packaging
 
-## 🚀 Exploring AI in Quality Control
+🚀 Exploring AI in Quality Control
 
 This is a personal project developed to demonstrate a practical understanding of AI, deep learning, and computer vision by building a prototype for real-time defect detection in canned food packaging. Leveraging YOLOv8 by Ultralytics and OpenCV, the system simulates an automated quality control process—showcasing the potential of AI in manufacturing and inspection tasks.  
 
@@ -10,7 +10,6 @@ This is a personal project developed to demonstrate a practical understanding of
 ✅ **Real-Time Processing** – Demonstrate the ability to detect and classify defects instantly.  
 ✅ **Practical Application Focus** – Tailored for packaging defects like dents, scratches, and deformations.  
 ✅ **Web Deployment Simulation** – Use Flask to simulate deployment in a production-like environment.
-
 
 ---
 
@@ -66,4 +65,3 @@ Once started, the system will analyze incoming frames and detect packaging defec
 - 🔹 Gained **hands-on experience** with YOLOv8 object detection.  
 - 🔹 Applied **computer vision techniques** in a manufacturing context.  
 - 🔹 Explored **real-time AI deployment** using Flask.
-
