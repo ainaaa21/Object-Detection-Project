@@ -64,6 +64,6 @@ Once started, the system will analyze incoming frames and detect packaging defec
 ---
 ## 💬 Learning Outcomes
 
-- 🔹 Gained **hands-on experience** with YOLOv8 object detection.  
-- 🔹 Applied **computer vision techniques** in a manufacturing context.  
-- 🔹 Explored **real-time AI deployment** using Flask.
+🔹 Gained **hands-on experience** with YOLOv8 object detection.  
+🔹 Applied **computer vision techniques** in a manufacturing context.  
+🔹 Explored **real-time AI deployment** using Flask.
