@@ -1,4 +1,4 @@
-# 🛠️ Real-Time Defect Detection and Classification for Canned Food Packaging
+🛠️ **Real-Time Defect Detection and Classification for Canned Food Packaging**
 
 🚀 Exploring AI in Quality Control
 
