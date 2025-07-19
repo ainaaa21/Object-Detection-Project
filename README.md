@@ -24,6 +24,25 @@ This is a project developed to demonstrate a practical understanding of **AI, de
 🔹 **Web Interface** – Basic UI built with Flask to visualize results and mimic real-world deployment.
 
 ---
+## 🖥️ Sample Web Interface
+
+Below is the user interface for the SmartDetection system:
+
+### 🔹 Home Page  
+<p align="center">
+  <img src="user interface/interface1.png" alt="SmartDetection Home Interface" width="700"/>
+</p>
+
+> 📷 Users are greeted with a simple welcome screen and a clickable camera icon to start detection.
+
+### 🔹 Live Detection in Action  
+<p align="center">
+  <img src="user interface/interface2.png" alt="Real-Time Detection Interface" width="700"/>
+</p>
+
+> 🛠️ Once detection begins, users receive real-time feedback with bounding boxes and confidence scores. Instructions and defect status are clearly shown for user guidance.
+
+---
 
 ## ⚙️ Tech Stack & Dependencies
 
