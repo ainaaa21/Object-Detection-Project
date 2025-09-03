@@ -103,7 +103,7 @@ Below is the user interface for the SmartDetection system:
 ## 🎥 Demo (Optional)
 
 <p align="center">
-  <img src="docs/demo.gif" alt="Live Detection Demo" width="600"/>
+  <img src="user interface/System Demo.mp4" alt="Live Detection Demo" width="300"/>
 </p>
 
 ---
