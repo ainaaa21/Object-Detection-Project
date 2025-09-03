@@ -100,11 +100,9 @@ Below is the user interface for the SmartDetection system:
 
 ---
 
-## 🎥 Demo (Optional)
+## 🎥 System Demo
 
-<p align="center">
-  <img src="user interface/System Demo.mp4" alt="Live Detection Demo" width="300"/>
-</p>
+Click this link to view system demo: https://drive.google.com/file/d/1Jsoj6YtsimQc67mX_X9q4KJFiKqrLXvi/view?usp=sharing
 
 ---
 
