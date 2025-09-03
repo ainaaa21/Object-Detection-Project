@@ -2,18 +2,74 @@
 
 🚀 **Exploring AI in Quality Control**
 
-This is a project developed to demonstrate a practical understanding of **AI, deep learning, and computer vision** by building a prototype for **real-time defect detection in canned food packaging**. Leveraging **YOLOv8 by Ultralytics and OpenCV**, the system simulates an automated quality control process—showcasing the potential of AI in manufacturing and inspection tasks.  
+This project demonstrates the practical application of **AI, deep learning, and computer vision** to automate quality control in manufacturing. It focuses on **real-time defect detection in canned food packaging**, using **YOLOv8 by Ultralytics, OpenCV, and Flask** to simulate an automated inspection system.
 
 ---
 
-## 🔍 Project Objectives
+## ❌ Problem Statement
 
-✅ **Hands-On Deep Learning** – Applied object detection to identify dents in canned packaging.  
-✅ **Real-Time Defect Classification** – Detected and classified dents into three levels: **major**, **minor**, and **no defect** instantly.  
-✅ **Packaging-Focused Application** – Designed specifically for quality control in canned food packaging.  
-✅ **Web Deployment Simulation** – Used Flask to simulate a live production environment for real-time monitoring.
+Manual inspection of canned packaging is:  
+- Time-consuming ⏳  
+- Prone to human error 😵  
+- Inconsistent in quality ✅/❌  
+- Traditional image processing methods lack real-time accuracy  
+
+👉 Defects such as **dents, leaks, or punctures** can compromise food safety and lead to product recalls. 
 
 ---
+
+## 💡 Proposed Solution
+
+Build a **real-time defect detection and classification system** that:  
+- Automates inspection using **computer vision + deep learning**  
+- Detects and classifies dents as **major, minor, or no defect**, specifically **dent defect** used for this project 
+- Provides instant feedback through a simple **Flask web app**  
+- Simulates integration into a production line  
+
+---
+
+## 📊 Dataset & Preparation
+
+- **Source:** 900 images of canned packaging (3 classes: major, minor, no defect). Below are examples of sample dataset used in this project:
+<p align="center">
+  <img src="user interface/Major-Defect.png" alt="Sample Dataset Images" width="600"/>
+</p>  
+
+<p align="center">
+  <img src="user interface/Minor-Defect.png" alt="Sample Dataset Images" width="600"/>
+</p>  
+
+<p align="center">
+  <img src="user interface/No-Defect.png" alt="Sample Dataset Images" width="600"/>
+</p>  
+
+- **Tool:** Roboflow for annotation, resizing, and augmentation  
+- **Final Dataset:** 1,292 images after preprocessing  
+- **Split:** 70% training, 20% validation, 10% testing  
+
+<p align="center">
+  <img src="docs/dataset_samples.png" alt="Sample Dataset Images" width="600"/>
+</p>  
+
+---
+
+## 🤖 Model Training & Evaluation
+
+- Trained multiple YOLOv8 variants (n, s, m, l)  
+- Results: All achieved **99.5% mAP**  
+- Chosen model: **YOLOv8n** (nano) → best tradeoff between speed & accuracy  
+  - Latency: 5.7 ms/frame  
+  - Parameters: 30.06M  
+  - Accuracy: **96.7% overall**  
+    - 100% for *major* and *minor defects*  
+    - 90% for *no defect*  
+
+<p align="center">
+  <img src="docs/results_chart.png" alt="Model Training Results" width="600"/>
+</p>  
+
+---
+
 ## ⚙️ Tech Stack & Dependencies
 
 📌 **Programming Language:** Python 🐍  
@@ -79,8 +135,33 @@ Once started, the system will analyze incoming frames and detect packaging defec
 
 ---
 
+## 📌 Limitations & Future Work
+
+- Dataset only covers **silver tall cans** → expand to different colors and materials  
+- Sensitive to **lighting conditions** → improve preprocessing and augmentation  
+- Future directions:  
+  - Experiment with **YOLOv11** and advanced optimizers  
+  - Simulate more realistic **factory environments**  
+  - Add dashboard for **defect logging and analytics**  
+
+<p align="center">
+  <img src="docs/future_work.png" alt="Future Improvements" width="500"/>
+</p>  
+
+---
+
 ## 💬 Learning Outcomes
 
-🔹 Gained **hands-on experience** with YOLOv8 object detection.  
-🔹 Applied **computer vision techniques** in a manufacturing context.  
-🔹 Explored **real-time AI deployment** using Flask.
+🔹 Gained **hands-on experience** with YOLOv8 object detection  
+🔹 Applied **computer vision** in a manufacturing context  
+🔹 Built a working **end-to-end prototype** with Flask  
+🔹 Learned to balance **accuracy vs speed** for real-time AI  
+🔹 Developed **problem-solving & adaptability** skills  
+
+---
+
+## 🎥 Demo (Optional)
+
+<p align="center">
+  <img src="docs/demo.gif" alt="Live Detection Demo" width="600"/>
+</p>
