@@ -32,24 +32,14 @@ Build a **real-time defect detection and classification system** that:
 
 - **Source:** 900 images of canned packaging (3 classes: major, minor, no defect). Below are examples of sample dataset used in this project:
 <p align="center">
-  <img src="user interface/Major-Defect.png" alt="Sample Dataset Images" width="600"/>
-</p>  
-
-<p align="center">
-  <img src="user interface/Minor-Defect.png" alt="Sample Dataset Images" width="600"/>
-</p>  
-
-<p align="center">
-  <img src="user interface/No-Defect.png" alt="Sample Dataset Images" width="600"/>
-</p>  
+  <img src="user interface/Major Defect.png" alt="Major Defect" width="150" height="200"/>
+  <img src="user interface/Minor Defect.png" alt="Minor Defect" width="150" height="148"/>
+  <img src="user interface/No Defect.png" alt="No Defect" width="150" height="148"/>
+</p>
 
 - **Tool:** Roboflow for annotation, resizing, and augmentation  
 - **Final Dataset:** 1,292 images after preprocessing  
 - **Split:** 70% training, 20% validation, 10% testing  
-
-<p align="center">
-  <img src="docs/dataset_samples.png" alt="Sample Dataset Images" width="600"/>
-</p>  
 
 ---
 
@@ -63,10 +53,6 @@ Build a **real-time defect detection and classification system** that:
   - Accuracy: **96.7% overall**  
     - 100% for *major* and *minor defects*  
     - 90% for *no defect*  
-
-<p align="center">
-  <img src="docs/results_chart.png" alt="Model Training Results" width="600"/>
-</p>  
 
 ---
 
@@ -114,6 +100,14 @@ Below is the user interface for the SmartDetection system:
 
 ---
 
+## 🎥 Demo (Optional)
+
+<p align="center">
+  <img src="docs/demo.gif" alt="Live Detection Demo" width="600"/>
+</p>
+
+---
+
 ## 🚀 Getting Started
 
 ### 🔧 **1. Clone the Repository**
@@ -142,12 +136,8 @@ Once started, the system will analyze incoming frames and detect packaging defec
 - Future directions:  
   - Experiment with **YOLOv11** and advanced optimizers  
   - Simulate more realistic **factory environments**  
-  - Add dashboard for **defect logging and analytics**  
-
-<p align="center">
-  <img src="docs/future_work.png" alt="Future Improvements" width="500"/>
-</p>  
-
+  - Add dashboard for **defect logging and analytics**
+    
 ---
 
 ## 💬 Learning Outcomes
@@ -157,11 +147,3 @@ Once started, the system will analyze incoming frames and detect packaging defec
 🔹 Built a working **end-to-end prototype** with Flask  
 🔹 Learned to balance **accuracy vs speed** for real-time AI  
 🔹 Developed **problem-solving & adaptability** skills  
-
----
-
-## 🎥 Demo (Optional)
-
-<p align="center">
-  <img src="docs/demo.gif" alt="Live Detection Demo" width="600"/>
-</p>
